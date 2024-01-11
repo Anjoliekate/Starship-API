@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A1B90905-6F55-4E87-8959-289A6FA98203"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightAPI/StarshipCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "StarshipCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - f01d34536a060c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.costLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - a180504648d5656d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.costLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - 6aeb25730f71aa3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.costLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - e3142476389b7094"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.costLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - ff455f2555aa7bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; WeatherAPI.StarshipCell"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "9AB51A16-C28B-4012-8607-B93A1968AD29 - 2d9089ea8e2901d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.StarshipCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WeatherAPI.StarshipCell&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/StarshipCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightAPI/SpaceshipDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SpaceshipDetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - bbc420f6655c2cc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.starshipImage.getter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - ec2aaf7add7990b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.starshipImage.setter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - 9e9fbf8d011d97c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.starshipImage.modify : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - a2630d9bcf5c24b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.starshipImage.modify : Swift.Optional&lt;__C.UIImage&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - a311394196625ac5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WeatherAPI.SpaceshipDetailsViewController"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "C14817A3-B0D3-49FA-A8C8-6CB63C5C09D5 - 423d3241d9f7b7e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAPI.SpaceshipDetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WeatherAPI.SpaceshipDetailsViewController&gt;"
+                  moduleName = "WeatherAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjolie/Desktop/SE-IOS/f23-project3-Anjoliekate/FlightAPI/FlightAPI/SpaceshipDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

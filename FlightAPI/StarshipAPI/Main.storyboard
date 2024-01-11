@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OP0-iO-Nfn">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Starship Inventory-->
+        <scene sceneID="MWI-uR-uP2">
+            <objects>
+                <tableViewController id="Lls-LC-1aR" customClass="StarshipsViewController" customModule="WeatherAPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="coI-cR-Pty">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StarshipCell" rowHeight="142" id="XEN-As-wXC" customClass="StarshipCell" customModule="WeatherAPI" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="142"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XEN-As-wXC" id="VVt-kb-dH9">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="142"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vK5-s8-KVe">
+                                            <rect key="frame" x="20" y="62.333333333333336" width="131" height="17.333333333333336"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Starship Name">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.36373500631313127" green="0.25629676388751449" blue="0.26646280353341889" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="17" name="Copperplate-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEk-0h-FYn">
+                                            <rect key="frame" x="20" y="40" width="77" height="15"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="starship type:">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="14" name="GillSans-SemiBoldItalic"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbP-gC-6hC">
+                                            <rect key="frame" x="341" y="63.333333333333336" width="31.333333333333314" height="15.333333333333336"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Cost">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.3637350063" green="0.2562967639" blue="0.26646280350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="13" name="Menlo-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAu-NF-vpR">
+                                            <rect key="frame" x="290" y="41" width="81.666666666666686" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="7Tr-sc-QbU"/>
+                                            </constraints>
+                                            <attributedString key="attributedText">
+                                                <fragment content="cost in credits:">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="14" name="GillSans-SemiBoldItalic"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1m-63-ISz">
+                                            <rect key="frame" x="375" y="61" width="10" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="0.3637350063" green="0.2562967639" blue="0.26646280350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="vK5-s8-KVe" firstAttribute="centerY" secondItem="VVt-kb-dH9" secondAttribute="centerY" id="92h-Ky-6D0"/>
+                                        <constraint firstItem="FEk-0h-FYn" firstAttribute="leading" secondItem="vK5-s8-KVe" secondAttribute="leading" id="BZs-Sa-Df9"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="sbP-gC-6hC" secondAttribute="trailing" constant="0.66666666666668561" id="EaO-6h-Inm"/>
+                                        <constraint firstItem="jAu-NF-vpR" firstAttribute="firstBaseline" secondItem="FEk-0h-FYn" secondAttribute="firstBaseline" constant="1" id="MCW-we-ic0"/>
+                                        <constraint firstAttribute="trailing" secondItem="jAu-NF-vpR" secondAttribute="trailing" constant="21.333333333333371" id="XLG-Dn-hbu"/>
+                                        <constraint firstAttribute="trailing" secondItem="m1m-63-ISz" secondAttribute="trailing" constant="8" id="Xe1-gs-RNc"/>
+                                        <constraint firstItem="jAu-NF-vpR" firstAttribute="baseline" secondItem="FEk-0h-FYn" secondAttribute="baseline" constant="1" id="YYd-qE-930"/>
+                                        <constraint firstItem="sbP-gC-6hC" firstAttribute="centerY" secondItem="VVt-kb-dH9" secondAttribute="centerY" id="g45-W1-nKR"/>
+                                        <constraint firstItem="vK5-s8-KVe" firstAttribute="leading" secondItem="VVt-kb-dH9" secondAttribute="leading" constant="20" id="kdl-C7-Dmx"/>
+                                        <constraint firstItem="sbP-gC-6hC" firstAttribute="top" secondItem="jAu-NF-vpR" secondAttribute="bottom" constant="7.3333333333333286" id="lny-RX-s6u"/>
+                                        <constraint firstItem="sbP-gC-6hC" firstAttribute="firstBaseline" secondItem="m1m-63-ISz" secondAttribute="firstBaseline" id="s8B-qx-JMi"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="costLabel" destination="sbP-gC-6hC" id="kUy-TF-L6F"/>
+                                    <outlet property="starshipLabel" destination="vK5-s8-KVe" id="iwg-X0-xVE"/>
+                                    <segue destination="OA6-3u-CjJ" kind="show" identifier="ShowSpaceshipDetails" id="Vzd-kn-F0T"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lls-LC-1aR" id="tvg-an-Zi9"/>
+                            <outlet property="delegate" destination="Lls-LC-1aR" id="HrZ-ML-MsF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Starship Inventory" id="4hO-7C-NQU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCz-VV-ncQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109.16030534351144" y="-125.35211267605635"/>
+        </scene>
+        <!--Spaceship Details View Controller-->
+        <scene sceneID="8Nz-2Q-tG4">
+            <objects>
+                <viewController id="OA6-3u-CjJ" customClass="SpaceshipDetailsViewController" customModule="WeatherAPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pEA-4f-Yww">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fk7-DR-0Gi">
+                                <rect key="frame" x="49" y="134" width="294" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Starship Name">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Copperplate-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n34-tI-9sU">
+                                <rect key="frame" x="30" y="477" width="44" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="crew:">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="GillSans-BoldItalic"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="crew amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4L-yV-SkO">
+                                <rect key="frame" x="80" y="477" width="99" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="passengers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rob-ND-qIs">
+                                <rect key="frame" x="30" y="522" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="p amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onX-EF-xNn">
+                                <rect key="frame" x="143" y="521" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hyperdrive rating: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpp-b7-ngt">
+                                <rect key="frame" x="30" y="569" width="185" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWS-O9-658">
+                                <rect key="frame" x="203" y="568" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="length:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pf-EF-yCp">
+                                <rect key="frame" x="30" y="615" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vZ-5q-eWY">
+                                <rect key="frame" x="30" y="438" width="138" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="cost in credits:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="GillSans-BoldItalic"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LM6-kJ-816">
+                                <rect key="frame" x="110" y="752" width="267" height="27"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="manufacturer">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99858628469999999" green="0.97816272699999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="BodoniSvtyTwoSCITCTT-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPb-4d-zZo">
+                                <rect key="frame" x="17" y="760" width="88" height="14"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Manufactured by:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99858628469336363" green="0.97816272703045326" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="GillSans-LightItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAz-61-3Jq">
+                                <rect key="frame" x="171" y="437" width="151" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Cost">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Menlo-Italic"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ja3-48-qbF">
+                                <rect key="frame" x="68" y="192" width="256" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="154" id="Gug-dh-2db"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="length amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-J0-fQT">
+                                <rect key="frame" x="113" y="615" width="110" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EtH-Ik-VLM"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="Fk7-DR-0Gi" firstAttribute="top" secondItem="EtH-Ik-VLM" secondAttribute="top" constant="31" id="E4H-lQ-HPw"/>
+                            <constraint firstItem="ja3-48-qbF" firstAttribute="leading" secondItem="EtH-Ik-VLM" secondAttribute="leading" constant="99" id="F7o-nB-mnM"/>
+                            <constraint firstItem="ja3-48-qbF" firstAttribute="centerX" secondItem="pEA-4f-Yww" secondAttribute="centerX" id="JOz-Ku-kem"/>
+                            <constraint firstItem="LM6-kJ-816" firstAttribute="leading" secondItem="uPb-4d-zZo" secondAttribute="trailing" constant="5" id="PJz-gz-2Us"/>
+                            <constraint firstItem="EtH-Ik-VLM" firstAttribute="bottom" secondItem="LM6-kJ-816" secondAttribute="bottom" constant="39" id="Upc-gt-m6m"/>
+                            <constraint firstItem="ja3-48-qbF" firstAttribute="top" secondItem="Fk7-DR-0Gi" secondAttribute="bottom" constant="8" symbolic="YES" id="ZMe-nC-CGc"/>
+                            <constraint firstItem="uPb-4d-zZo" firstAttribute="firstBaseline" secondItem="LM6-kJ-816" secondAttribute="firstBaseline" id="qtT-gf-1Ku"/>
+                            <constraint firstItem="uPb-4d-zZo" firstAttribute="centerY" secondItem="LM6-kJ-816" secondAttribute="centerY" id="uA5-MF-Uhl"/>
+                            <constraint firstItem="ja3-48-qbF" firstAttribute="centerX" secondItem="Fk7-DR-0Gi" secondAttribute="centerX" id="vBZ-68-fet"/>
+                            <constraint firstItem="Fk7-DR-0Gi" firstAttribute="leading" secondItem="EtH-Ik-VLM" secondAttribute="leading" constant="76" id="vL8-P7-ZW4"/>
+                            <constraint firstItem="uPb-4d-zZo" firstAttribute="leading" secondItem="EtH-Ik-VLM" secondAttribute="leading" constant="20" id="xCj-hY-NzP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DAn-l6-tdk"/>
+                    <connections>
+                        <outlet property="Manufacturer" destination="LM6-kJ-816" id="GDz-Fk-IjB"/>
+                        <outlet property="costLabel" destination="iAz-61-3Jq" id="NoM-db-oWg"/>
+                        <outlet property="crewAmount" destination="Y4L-yV-SkO" id="HsM-GP-Lbv"/>
+                        <outlet property="hyperdriveRating" destination="eWS-O9-658" id="IJg-Fk-Z9d"/>
+                        <outlet property="imageView" destination="ja3-48-qbF" id="j3z-fd-Zt1"/>
+                        <outlet property="length" destination="tKd-J0-fQT" id="QOB-zp-sSR"/>
+                        <outlet property="nameLabel" destination="Fk7-DR-0Gi" id="BKH-nP-X5i"/>
+                        <outlet property="passengerAmount" destination="onX-EF-xNn" id="VMI-VJ-Ept"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWe-Y9-6j3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="632.82442748091603" y="-137.32394366197184"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="thC-rF-9Kd">
+            <objects>
+                <navigationController id="OP0-iO-Nfn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wfL-pe-aKQ">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Lls-LC-1aR" kind="relationship" relationship="rootViewController" id="6ff-UU-h0t"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuL-vf-Roh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-863" y="-125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
