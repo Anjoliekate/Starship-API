@@ -1,4 +1,4 @@
-# Starship-API
+# Starship-Index
 
 <img width="381" alt="Screenshot 2024-01-10 at 10 01 44 PM" src="https://github.com/Anjoliekate/Starship-API/assets/99061657/ed380c26-9edf-4d97-8ebe-d47089722fc0">
 
